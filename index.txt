@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitui Cottages and Guest House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Kitui Cottages and Guest House</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to Kitui Cottages and Guest House</h1>
+            <p>Your serene escape in the heart of Kitui! Whether you're here for business or leisure, we offer comfortable rooms, modern amenities, and warm hospitality.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Kitui Cottages and Guest House, hospitality is at the heart of everything we do. We welcome every guest as part of our extended family, ensuring your stay is warm, comfortable, and memorable. Whether you’re staying for a night or longer, we aim to make you feel at home with personalized service.</p>
+            <p>Comfort is a top priority for us. Our rooms and common spaces are thoughtfully designed to offer a blend of coziness and functionality, creating the perfect environment for relaxation and rest.</p>
+            <p>We also believe in giving back to the community. By working with local businesses and artisans, we promote cultural experiences that showcase the best of Kitui’s traditions and flavors.</p>
+        </section>
+
+        <section id="services">
+            <h2>Featured Facilities & Services</h2>
+            <div class="service">
+                <h3>Accommodation</h3>
+                <p>Luxuriously spacious, elegantly furnished ensuite rooms with luxurious beds, premium linens, modern amenities, and working areas.</p>
+            </div>
+            <div class="service">
+                <h3>Restaurant</h3>
+                <p>We offer a variety of dining experiences to suit every guest’s taste and preference: Buffet, À la Carte, and Special Diet Meals.</p>
+            </div>
+            <div class="service">
+                <h3>Conference Hall</h3>
+                <p>We provide a well-equipped conference hall, ideal for meetings, workshops, and corporate events.</p>
+            </div>
+            <div class="service">
+                <h3>Gym</h3>
+                <p>Maintain your fitness routine or kickstart a new one in our fully equipped, well-maintained modern gym.</p>
+            </div>
+            <div class="service">
+                <h3>Tour Packages</h3>
+                <p>Discover the beauty, history, and adventure that Kitui and its surroundings have to offer with our personalized tour packages.</p>
+            </div>
+        </section>
+
+        <section id="accommodation">
+            <h2>Accommodation Facilities</h2>
+            <div class="room">
+                <h3>Standard Single Occupancy</h3>
+                <p>Ideal for solo travelers seeking a luxurious, spacious cozy stay. The room features a comfortable bed, luxurious décor, and all essential amenities to ensure a restful experience.</p>
+                <p>Bed Only: Ksh 1,500 per night</p>
+                <p>Bed and Breakfast: Ksh 1,800 per night</p>
+            </div>
+            <div class="room">
+                <h3>Executive Double Occupancy</h3>
+                <p>Designed for couples or business travelers, this spacious room offers a luxurious double bed, premium linens, and modern amenities to enhance your stay. Perfect for those seeking comfort with a touch of elegance.</p>
+                <p>Bed Only: Ksh 2,500 per night</p>
+                <p>Bed and Breakfast: Ksh 3,100 per night</p>
+            </div>
+            <div class="room">
+                <h3>Executive Cottages Family</h3>
+                <p>This exclusive family cottage is ideal for parents traveling with children, offering ample space, privacy, and beautiful garden views. It features a comfortable double bed and plenty of room to relax.</p>
+                <p>Bed Only: Ksh 3,600 per night</p>
+                <p>Bed and Breakfast: Ksh 4,200 per night</p>
+            </div>
+            <div class="room">
+                <h3>Executive Cottages</h3>
+                <p>Perfect for families or small groups, this cottage provides a blend of comfort and convenience with room for two adults and children. Enjoy serene surroundings and high-quality amenities tailored to meet your needs.</p>
+                <p>Bed Only: Ksh 3,600 per night</p>
+                <p>Bed and Breakfast: Ksh 4,700 per night</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Whether you have questions, need assistance with bookings, or want more information about our services, feel free to get in touch.</p>
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Location: Kitui Cottages and Guest House, Kitui Town, Kenya</p>
+            <p>Phone: +254 727 086 695 / +254 731 232 099</p>
+            <p>Email: Kcottages@gmail.com</p>
+            <p>WhatsApp: +254 727 086 695</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kitui Cottages and Guest House. All rights reserved.</p>
+    </footer>
+</body>
+</html>
